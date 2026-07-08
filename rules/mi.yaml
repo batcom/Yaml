@@ -202,6 +202,9 @@ rules:
   - RULE-SET,add_direct_domain,国内直连                                  # 直连域名
   - RULE-SET,cn_domain,国内直连                                          # 中国域名
   - RULE-SET,cn_ip,国内直连,no-resolve                                   # 中国IP
+  - DOMAIN-SUFFIX,cn,DIRECT
+  - DOMAIN-KEYWORD,-cn,DIRECT
+  - GEOIP,CN,DIRECT
   - MATCH,漏网之鱼                                                       # 兜底规则
 
 
